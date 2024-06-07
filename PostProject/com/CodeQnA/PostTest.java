@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 public class PostTest {
     private Post post;
 
-    @BeforeEach
     public void setUp() {
         // Setting up a valid post
         post = new Post(1, "ValidTitle", "A".repeat(250), new String[]{"java", "programming"}, "Easy", "Ordinary");
