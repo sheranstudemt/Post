@@ -1,9 +1,1 @@
-Post ID: 1
-Comment: This is valid comment.
-
-Post ID: 1
-Comment: This is valid comment.
-
-Post ID: 1
-Comment: This is valid comment.
 

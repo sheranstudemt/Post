@@ -65,7 +65,7 @@ public class Post {
         }
 
         // If all conditions are met, write the post information to the file
-        try (FileWriter writer = new FileWriter("post.txt", true)) {
+        try (FileWriter writer = new FileWriter("posts.txt", true)) {
             writer.write("Post ID: " + postID + "\n");
             writer.write("Title: " + postTitle + "\n");
             writer.write("Body: " + postBody + "\n");
